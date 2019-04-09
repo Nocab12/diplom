@@ -1,4 +1,4 @@
-a, ul, li {
+a {
 	text-decoration: none;
 }
 html, body, div, span, applet, main, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; }
@@ -8,14 +8,14 @@ a, ul, li  {
 }
 
 body {
-	font-family: 'OpenSans-Regular', sans-serif;
+	font-family: "OpenSans", sans-serif;
 }
 h1 {
-	font-size: 80px;
-	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 90px;
 }
 h2 {
-	font-family: 'OpenSans-Bold', sans-serif;
+	font-size: 80px;
+	font-weight: bold;
 }
 /*HEADER*/
 header {
@@ -38,15 +38,17 @@ header .follow-me__icon {
 }
 .recruited-indent {
 	padding-left: 12.24%;
+	font-weight: bold;
 }
 .college-indent {
 	padding-left: 33.43%;
-	padding-bottom: 11.5%;
+	font-weight: bold;
 }
 .buttons {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 5.7%;
+	padding-top: 11.5%;
 }
 .btn {
 	color: #fff;
@@ -82,12 +84,9 @@ header .follow-me__icon {
 	left: 57px;	
 }
 a.btn span {
-	font-family: 'OpenSans-Bold', sans-serif;
+	font-weight: bold;
 }
 /*modul_1*/
-.modul_1 {
-
-}
 .footballer-img {
 	position: relative;
 }
@@ -96,21 +95,20 @@ a.btn span {
 	max-width: 50%;
 	left: 20.5%;
 	padding-top: 1.4%;
-
 }
-.athlets h1, .players h1{
+.athlets h2, .players h2{
 	color: #e7e7e7;
 }
-.athlets h2, .players h2 {
+.athlets h3, .players h3 {
 	font-size: 36px;
 	color: #c1c1c1;
 	text-transform: uppercase;
 }
-.connection h2, .collaboration h2, .growth h2  {
+.connection h3, .collaboration h3, .growth h3  {
 	position: relative;
 	margin-left: 30px;
 }
-.connection h2:before, .collaboration h2:before, .growth h2:before {
+.connection h3:before, .collaboration h3:before, .growth h3:before {
 	display: block;
 	position: absolute;
 	top: 8px;
@@ -119,14 +117,14 @@ a.btn span {
 	border-bottom: 4px solid #5e42b0;
 	color: #000;
 }
-.connection h2:before {
+.connection h3:before {
 	content: '01';
 
 }
-.collaboration h2:before {
+.collaboration h3:before {
 	content: '02';
 }
-.growth h2:before {
+.growth h3:before {
 	content: '03';
 	border-bottom: 4px solid #efefef;
 }
@@ -135,7 +133,7 @@ a.btn span {
 	margin-top: 20px;
 }
 
-.athlets h1, .athlets .connection, .athlets .collaboration, .athlets .growth {
+.athlets h2, .athlets .connection, .athlets .collaboration, .athlets .growth {
 	padding: 3.1% 10.15% 3.1% 52.6%;
 }
 .connection {
@@ -143,14 +141,13 @@ a.btn span {
 }
 .collaboration {
 	background: #f6f4fa;
-	
 }
 .growth {
 	background: #5e42b0;
 }
 /*modul_2*/ 
 
-.players h1, .players .connection, .players .collaboration, .players .growth {
+.players h2, .players .connection, .players .collaboration, .players .growth {
 	padding: 3.1% 50.7% 3.1% 10.05%;
 }
 .basketballer-img {
@@ -168,23 +165,22 @@ a.btn span {
 .players .growth p {
 	color: #fff;
 }
-.players .growth h2:before {
+.players .growth h3:before {
 	color: #9173e6;
 }
 /*modul_3*/ 
-.modul_3 {
-	
-}
-.modul_3 h1 {
+.modul_3 h3 {
 	color: #e7e7e7;
 	text-transform: uppercase;
 }
 .content {
 	display: flex;
 	justify-content: space-between;
-	width: 100%;
 	max-width: 1920px;
 	position: relative;	
+}
+.content img.poster_order {
+	order: 1;
 }
 .content-number {
 	position: absolute;
@@ -201,19 +197,20 @@ a.btn span {
 .content-number--03 {
 	top: 25%;	
 }
-.content-number p {
+.content-number span {
 	border-bottom: 4px solid #8f7bc8;
 	font-size: 24px;
 	color: #fff;
 }
 .content img, .text-description{
 	width: 50%;
-	height: 50%;
+	align-items: flex-start;
 }
 .text-description {
 	padding-left: 6.7%;
 }
-.text-description h1{
+.text-description h3{
+	font-size: 80px;
 	padding-top: 25.2%;
 	padding-bottom: 12%;
 }
@@ -238,10 +235,8 @@ footer {
 	padding-bottom: 7.6%;
 }
 .download-app {
-	padding-left: 1.8%;
-}
-.download-app {
 	font-size: 80px;
+	padding-left: 1.8%;
 }
 .download-app p {
 	color: #a496ca;
