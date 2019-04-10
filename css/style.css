@@ -121,8 +121,7 @@ a.btn span {
 	color: #000;
 }
 .connection h3:before {
-	content: '01';
-
+	content: '01';	
 }
 .collaboration h3:before {
 	content: '02';
@@ -214,6 +213,7 @@ a.btn span {
 }
 .content img, .text-description{
 	width: 50%;
+	height: 50%;
 	align-items: flex-start;
 }
 .text-description {
@@ -290,7 +290,6 @@ footer .follow-me__icon {
 	.basketballer-img img {
 		right: 0;
     	max-width: 70%;
-
 		padding-top: 5%;
 	}
 	.content {
@@ -332,7 +331,124 @@ footer .follow-me__icon {
 		flex-direction: column;
 		text-align: center;
 	}	
+	.download-app {
+		padding-left: 0;
+	}
 }
 @media (max-width: 640px) {
-	
+	h1 {
+		font-size: 28px;
+	}
+	h2 {
+		font-size: 50px;		
+	}
+	.recruited-indent {
+		padding-left: 6.25%;
+	}
+	.college-indent {
+		padding-left: 20.3%;		
+	}
+	.buttons {
+	    flex-direction: column;
+	    align-items: center;
+	    padding-bottom: 21.8%;
+	    padding-top: 26.8%;
+	}
+	.btn {		
+		
+		width: 275px;
+		font-size: 8px;
+		margin-bottom: 5%;
+		margin-left: 5%;
+	}
+	.btn1 {
+		padding-left: 115px;
+
+	}
+	.btn2 {
+		padding-left: 115px;
+	}
+	.btn1:before {
+		background: url(../images/apple_logo_320.png) no-repeat;
+		top: 12px;
+		left: 82px;
+	}
+	.btn2:before {
+		background: url(../images/google-logo-320.png) no-repeat;
+		top: 12px;
+		left: 82px;
+			
+	}
+	.athlets h3, .players h3 {
+		font-size: 23px;
+	}
+	.athlets p, .players p {
+		font-size: 15px;
+	}
+	.connection h3:before, .collaboration h3:before, .growth h3:before {
+	    top: 4px;
+	    font-size: 15px;
+	}
+	.modul_1 h2, .modul_2 h2{
+		margin-bottom: 50%;
+	}
+	.athlets h2, .athlets .connection, .athlets .collaboration, .athlets .growth {
+		padding: 18.75% 6.25% 18.75% 6.25%;
+	}
+	.athlets h2 {
+		padding-top: 4%;
+	}
+	.footballer-img img {
+		max-width: 50%;
+		left: 25%;
+		padding-top: 19%;
+	}
+	 .players .connection, .players .collaboration, .players .growth {
+		padding: 18.75% 6.25% 18.75% 6.25%;
+	}
+	.basketballer-img img {
+		right: 11%;
+    	max-width: 80%;
+		padding-top: 19%;
+	}
+	.text-description h3{
+		font-size: 28px;
+		padding-top: 8%;
+		padding-bottom: 2%;
+	}
+	.text-description p {
+		font-size: 16px;
+		margin-left: 0;
+	}
+	.content-number--01 {
+	    top: 55%;
+	    left: 7%;
+	}
+	.content-number--02 {
+		top: 55%;
+		left: 7%;	
+	}
+	.content-number--03 {
+		top: 50%;
+		left: 7%;	
+	}
+	.footer-top {
+		padding-top: 37.5%
+	}	
+	.download-app {
+		width: 280px;
+	}
+	.download-app h2 {
+		font-size: 32px;
+		padding-left: 1.8%;
+		padding-top: 10%;
+	}
+	.download-app p {
+		color: #a496ca;
+		font-size: 14px;
+	}
+	footer .follow-me__icon {
+		padding-top: 8.8%;
+		padding-bottom: 2.62%;
+	}
 }
