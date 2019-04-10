@@ -342,6 +342,9 @@ footer .follow-me__icon {
 	h2 {
 		font-size: 50px;		
 	}
+	header .follow-me__icon {
+		padding-top: 12.3%;
+	}
 	.recruited-indent {
 		padding-left: 6.25%;
 	}
