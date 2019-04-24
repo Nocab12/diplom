@@ -196,13 +196,13 @@ a.btn span {
 	left: 45%;    
 }
 .content-number--01 {
-	top: 35%;
+	top: 36%;
 }
 .content-number--02 {
-	top: 34%;	
+	top: 37%;	
 }
 .content-number--03 {
-	top: 34%;	
+	top: 37%;	
 }
 .content-number span {
 	border-bottom: 4px solid #8f7bc8;
@@ -238,7 +238,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 12.4%;
+	padding-top: 15.4%;
 	padding-bottom: 0;
 }
 .download-app {
