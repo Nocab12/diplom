@@ -94,7 +94,7 @@ a.btn span {
 	position: absolute;
 	max-width: 30%;
 	left: 20.5%;
-	padding-top: 1.4%;
+	padding-top: 3%;
 }
 .athlets h2, .players h2{
 	color: #e7e7e7;
@@ -135,7 +135,7 @@ a.btn span {
 	color: #fff;
 }
 .athlets h2, .athlets .connection, .athlets .collaboration, .athlets .growth {
-	padding: 3.1% 10.15% 3.1% 52.6%;
+	padding: 2.8% 10.15% 2.8% 52.6%;
 }
 .connection {
 	background: #fff;
@@ -161,7 +161,7 @@ a.btn span {
 .basketballer-img img {
 	position: absolute;
 	max-width: 50%;
-	right: 5%;
+	right: 6%;
 	padding-top: 1%;
 }
 
@@ -182,7 +182,6 @@ a.btn span {
 .content {
 	display: flex;
 	align-items: flex-start;
-	max-width: 1920px;
 	position: relative;	
 }
 .content .poster_order {
