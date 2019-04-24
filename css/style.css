@@ -29,12 +29,11 @@ header {
 	margin: 0 auto;
 }
 header .follow-me__icon {
-	padding-top: 4.3%;
+	padding-top: 3.3%;
 	padding-bottom: 11.62%;
 }
 .recruited-indent {
 	padding-left: 12.24%;
-	font-weight: normal;
 	display: block;
 }
 .college-indent {
@@ -197,13 +196,13 @@ a.btn span {
 	left: 45%;    
 }
 .content-number--01 {
-	top: 27%;
+	top: 35%;
 }
 .content-number--02 {
-	top: 29%;	
+	top: 34%;	
 }
 .content-number--03 {
-	top: 29%;	
+	top: 34%;	
 }
 .content-number span {
 	border-bottom: 4px solid #8f7bc8;
@@ -215,8 +214,8 @@ a.btn span {
 }
 .text-description h3{
 	font-size: 80px;
-	padding-top: 25.2%;
-	padding-bottom: 12%;
+	padding-top: 27.2%;
+	padding-bottom: 9%;
 	padding-left: 10.7%;
 }
 .text-description p {
@@ -239,7 +238,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 11.4%;
+	padding-top: 12.4%;
 	padding-bottom: 0;
 }
 .download-app {
