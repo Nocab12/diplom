@@ -280,7 +280,6 @@ footer {
 footer .buttons {
 	padding-bottom: 7%;
     padding-top: 8%;
-
 }
 footer .follow-me__icon {
 	padding-top: 6.8%;
@@ -292,12 +291,7 @@ footer .follow-me__icon {
 	}
 }
 @media (max-width: 1100px) {
-	.text-description h3{
-		font-size: 45px;
-	}
-	.text-description p {
-		font-size: 20px;
-	}
+
 }
 @media (max-width: 960px) {
 	header {
@@ -371,10 +365,10 @@ footer .follow-me__icon {
 		padding: 2% 43.7% 2% 5.05%;
 	}
 	.players .collaboration {
-		padding: 2.5% 50.7% 4.6% 10.05%;
+		padding: 7% 46.7% 5% 5.05%;
 	}
 	.players .growth {
-		padding: 2.5% 50.7% 2.7% 10.05%;
+		padding: 4% 44.7% 5% 5.05%;
 	}
 	.basketballer-img img {
 		right: 0px;
@@ -383,6 +377,9 @@ footer .follow-me__icon {
 	}
 	.content {
 		flex-wrap: wrap;
+	}
+	.content .poster_order {
+	    order: 0;
 	}
 	.content img, .text-description{
 		width: 100%;		
@@ -394,34 +391,55 @@ footer .follow-me__icon {
 		padding-top: 10.2%;
 		padding-bottom: 2%;
 		padding-left: 3.1%;
+		font-size: 80px;
 	}
 	.text-description p {
-		padding-bottom: 10.9%;
+		padding-bottom: 11.9%;
 		padding-left: 3.1%;
+		font-size: 24px;
+	}
+	.text-description.indent h3{
+	    padding-left: 3%;
+	}
+	.text-description.indent p{
+	    padding-left: 3%;
+	}
+	.content-number {
+		padding: 4.7% 5.8%;
 	}
 	.content-number--01 {
-	    top: 60%;
-	    left: 3.1%;	
+	    top: 57%;
+	    left: 4.1%;	
 	}
 	.content-number--02 {
-		top: 60%;
-		left: 3.1%;	
+		top: 55.5%;
+    	left: 4.3%;
 	}
 	.content-number--03 {
-		top: 59%;
-		left: 3.1%;	
+		top: 54.7%;
+    	left: 4.4%;
 	}
 	.footer-top {
 		flex-direction: column;
 		text-align: center;
+		padding-top: 19.8%;
+    	padding-bottom: 38%;
 	}	
 	.download-app {
 		padding-left: 0;
+		padding-top: 6%;
+	}
+	footer .buttons {
+		padding-bottom: 7%;
+	    padding-top: 8%;
 	}
 	footer {
 		background: url(../images/footer-768.png) no-repeat;
 		background-color: #0f0f33;
 		background-size: cover;
+	}
+	footer .follow-me__icon {
+		padding-top: 0.8%;
 	}
 }
 @media (max-width: 640px) {
