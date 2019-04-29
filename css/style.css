@@ -450,12 +450,16 @@ footer .follow-me__icon {
 	}
 	h1 {
 		font-size: 28px;
+		line-height: 42px;
 	}
 	h2 {
 		font-size: 50px;		
 	}
 	header .follow-me__icon {
-		padding-top: 12.3%;
+		padding-top: 9.3%;
+		padding-bottom: 38%;
+		width: 134px;
+    	height: 45px;
 	}
 	.recruited-indent {
 		padding-left: 6.25%;
@@ -467,13 +471,14 @@ footer .follow-me__icon {
 	    flex-direction: column;
 	    align-items: center;
 	    padding-bottom: 21.8%;
-	    padding-top: 26.8%;
+	    padding-top: 25.8%;
 	}
 	.btn {			
 		width: 275px;
 		font-size: 8px;
 		margin-bottom: 5%;
-		margin-left: 5%;
+		margin-left: -1%;
+		padding: 4px 57px 4px 0;
 	}
 	.btn1 {
 		padding-left: 115px;
@@ -484,14 +489,13 @@ footer .follow-me__icon {
 	}
 	.btn1:before {
 		background: url(../images/apple_logo_320.png) no-repeat;
-		top: 16px;
+		top: 2px;
 		left: 82px;
 	}
 	.btn2:before {
 		background: url(../images/google-logo-320.png) no-repeat;
-		top: 16px;
-		left: 82px;
-			
+		top: 3px;
+		left: 82px;			
 	}
 	.athlets h3, .players h3 {
 		font-size: 23px;
@@ -506,24 +510,39 @@ footer .follow-me__icon {
 	.modul_1 h2, .modul_2 h2{
 		margin-bottom: 50%;
 	}
-	.athlets h2, .athlets .connection, .athlets .collaboration, .athlets .growth {
-		padding: 18.75% 6.25% 18.75% 6.25%;
-	}
 	.athlets h2 {
-		padding-top: 4%;
+		padding: 4% 6.25% 18.75% 6.25%;
+	}
+	.athlets .connection {
+		padding: 24.75% 6.25% 13.75% 6.25%;
+	}
+	.athlets .collaboration {
+		padding: 14.75% 6.25% 10.75% 6.25%;
+	}
+	.athlets .growth {
+		padding: 14.75% 6.25% 15.75% 6.25%;
 	}
 	.footballer-img img {
-		max-width: 50%;
-		left: 25%;
-		padding-top: 24%;
+		max-width: 60%;
+	    left: 22%;
+	    padding-top: 25%;
 	}
-	 .players .connection, .players .collaboration, .players .growth {
-		padding: 18.75% 6.25% 18.75% 6.25%;
+	.players h2 {
+		padding: 2.5% 50.7% 37% 4.05%;
+	}
+	.players .connection {
+		padding: 7.5% 3.7% 15% 6.05%;
+	}
+	.players .collaboration {
+		padding: 16.5% 3.7% 11% 6.05%;
+	}
+	.players .growth {
+		padding: 15.5% 3.7% 12% 6.05%;
 	}
 	.basketballer-img img {
-		right: 11%;
-    	max-width: 80%;
-		padding-top: 19%;
+		right: 3%;
+	    max-width: 95%;
+	    padding-top: 25%;
 	}
 	.text-description h3{
 		font-size: 28px;
