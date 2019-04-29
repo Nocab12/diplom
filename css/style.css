@@ -142,10 +142,10 @@ a.btn span {
 	padding: 1% 10.15% 2.8% 53%;
 }
 .athlets .collaboration {
-	padding: 1% 10.15% 2.8% 53%;
+	padding: 2.3% 10.15% 2.8% 53%;
 }
 .athlets .growth {
-	padding: 1% 10.15% 2.8% 53%;
+	padding: 2.4% 10.15% 2.8% 53%;
 }
 
 .connection {
@@ -160,7 +160,16 @@ a.btn span {
 /*modul_2*/ 
 
 .players h2, .players .connection, .players .collaboration, .players .growth {
-	padding: 2.1% 50.7% 3.1% 10.05%;
+	padding: 5.1% 50.7% 3.1% 10.05%;
+}
+.players .connection {
+	padding: 1.1% 50.7% 3.1% 10.05%;
+}
+.players .collaboration {
+	padding: 1.1% 50.7% 3.1% 10.05%;
+}
+.players .growth {
+	padding: 1.1% 50.7% 3.1% 10.05%;
 }
 .modul_2 {
 	
