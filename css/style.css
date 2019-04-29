@@ -457,7 +457,7 @@ footer .follow-me__icon {
 	}
 	.follow-me__icon {
 		padding-top: 9.3%;
-		padding-bottom: 38%;
+		padding-bottom: 42%;
 		width: 134px;
     	height: 45px;
 	}
@@ -563,11 +563,11 @@ footer .follow-me__icon {
 		order: 0;
 	}
 	.content-number--01 {
-	    top: 60%;
+	    top: 57%;
 	    left: 7%;
 	}
 	.content-number--02 {
-		top: 55%;
+		top: 52%;
 		left: 7%;	
 	}
 	.content-number--03 {
@@ -576,9 +576,9 @@ footer .follow-me__icon {
 	}
 	.footer-top {
 		padding-top: 30.5%;
-		padding-bottom: 16%;
+		padding-bottom: 14%;
 	}	
-	.footer-top .logo {
+	.footer-top .logo img{
 		width: 74px;
 		height: 71px;
 	}
