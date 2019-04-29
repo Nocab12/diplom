@@ -345,18 +345,19 @@ footer .follow-me__icon {
 	}
 	.athlets p, .players p {
 		font-size: 16px;
+		line-height: 25px;
 	}
 	.athlets h2 {
-		padding: 4.8% 10.15% 2.8% 52.6%;
+		padding: 8.8% 10.15% 2.8% 38.6%;
 	}
 	.athlets .connection {
-		padding: 1% 10.15% 2.8% 53%;
+		padding: 1% 6.15% 5.8% 38.6%;
 	}
 	.athlets .collaboration {
-		padding: 2.3% 10.15% 2.8% 53%;
+		padding: 3.3% 6.15% 4.8% 38.6%;
 	}
 	.athlets .growth {
-		padding: 2.4% 10.15% 2.8% 53%;
+		padding: 4.3% 6.15% 4.8% 38.6%;
 	}
 	.footballer-img img {
 		max-width: 45%;
@@ -364,10 +365,10 @@ footer .follow-me__icon {
 		padding-top: 13.4%;
 	}
 	.players h2 {
-		padding: 5% 50.7% 2% 10.05%;
+		padding: 7.5% 50.7% 2% 4.05%;
 	}
 	.players .connection {
-		padding: 1.8% 50.7% 2.5% 10.05%;
+		padding: 2% 43.7% 2% 5.05%;
 	}
 	.players .collaboration {
 		padding: 2.5% 50.7% 4.6% 10.05%;
@@ -376,9 +377,9 @@ footer .follow-me__icon {
 		padding: 2.5% 50.7% 2.7% 10.05%;
 	}
 	.basketballer-img img {
-		right: 0;
-    	max-width: 70%;
-		padding-top: 5%;
+		right: 0px;
+	    max-width: 57%;
+	    padding-top: 5%;
 	}
 	.content {
 		flex-wrap: wrap;
