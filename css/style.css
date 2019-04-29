@@ -7,6 +7,7 @@ body {
 }
 h1 {
 	font-size: 90px;
+	line-height: 102px;
 }
 h2 {
 	font-size: 80px;
@@ -29,8 +30,8 @@ header {
 	margin: 0 auto;
 }
 header .follow-me__icon {
-	padding-top: 3.3%;
-	padding-bottom: 11.62%;
+	padding-top: 2.3%;
+    padding-bottom: 14%;
 }
 .recruited-indent {
 	padding-left: 12.24%;
@@ -45,7 +46,7 @@ header .follow-me__icon {
 	display: flex;
 	justify-content: center;
 	padding-bottom: 5.7%;
-	padding-top: 9.1%;
+	padding-top: 11%;
 }
 .btn {
 	color: #fff;
@@ -93,10 +94,11 @@ a.btn span {
 	position: absolute;
 	max-width: 30%;
 	left: 20.5%;
-	padding-top: 3%;
+	padding-top: 1.6%;
 }
 .athlets h2, .players h2{
 	color: #e7e7e7;
+	text-transform: uppercase;
 }
 .athlets h3, .players h3 {
 	font-size: 36px;
@@ -133,9 +135,19 @@ a.btn span {
 .athlets .growth p {
 	color: #fff;
 }
-.athlets h2, .athlets .connection, .athlets .collaboration, .athlets .growth {
-	padding: 2.8% 10.15% 2.8% 52.6%;
+.athlets h2 {
+	padding: 4.8% 10.15% 2.8% 52.6%;
 }
+.athlets .connection {
+	padding: 1% 10.15% 2.8% 53%;
+}
+.athlets .collaboration {
+	padding: 1% 10.15% 2.8% 53%;
+}
+.athlets .growth {
+	padding: 1% 10.15% 2.8% 53%;
+}
+
 .connection {
 	background: #fff;
 }
