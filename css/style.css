@@ -455,7 +455,7 @@ footer .follow-me__icon {
 	h2 {
 		font-size: 50px;		
 	}
-	header .follow-me__icon {
+	.follow-me__icon {
 		padding-top: 9.3%;
 		padding-bottom: 38%;
 		width: 134px;
@@ -557,13 +557,13 @@ footer .follow-me__icon {
 	    padding-bottom: 31%;
 	}
 	.text-description .descr-bottom {
-		padding-bottom: 21%;
+		padding-bottom: 22%;
 	}
 	.content .poster_order {
 		order: 0;
 	}
 	.content-number--01 {
-	    top: 54%;
+	    top: 60%;
 	    left: 7%;
 	}
 	.content-number--02 {
@@ -575,8 +575,13 @@ footer .follow-me__icon {
 		left: 7%;	
 	}
 	.footer-top {
-		padding-top: 37.5%
+		padding-top: 30.5%;
+		padding-bottom: 16%;
 	}	
+	.footer-top .logo {
+		width: 74px;
+		height: 71px;
+	}
 	.download-app {
 		width: 280px;
 	}
