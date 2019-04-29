@@ -159,17 +159,17 @@ a.btn span {
 }
 /*modul_2*/ 
 
-.players h2, .players .connection, .players .collaboration, .players .growth {
-	padding: 5.1% 50.7% 3.1% 10.05%;
+.players h2 {
+	padding: 5% 50.7% 2% 10.05%;
 }
 .players .connection {
-	padding: 1.1% 50.7% 3.1% 10.05%;
+	padding: 1.8% 50.7% 2.5% 10.05%;
 }
 .players .collaboration {
-	padding: 1.1% 50.7% 3.1% 10.05%;
+	padding: 2.5% 50.7% 4.6% 10.05%;
 }
 .players .growth {
-	padding: 1.1% 50.7% 3.1% 10.05%;
+	padding: 2.5% 50.7% 2.7% 10.05%;
 }
 .modul_2 {
 	
@@ -180,9 +180,9 @@ a.btn span {
 }
 .basketballer-img img {
 	position: absolute;
-	max-width: 50%;
-	right: 6%;
-	padding-top: 1%;
+    max-width: 52%;
+    right: 5.8%;
+    padding-top: 1.1%
 }
 
 .players .growth {
@@ -214,16 +214,16 @@ a.btn span {
 	position: absolute;
 	background: #5e42b0;
 	padding: 3.125% 3.8%;
-	left: 45%;    
+	left: 46%;    
 }
 .content-number--01 {
-	top: 38%;
+	top: 29.5%;
 }
 .content-number--02 {
-	top: 39%;	
+	top: 30%;	
 }
 .content-number--03 {
-	top: 39%;	
+	top: 31.5%;	
 }
 .content-number span {
 	border-bottom: 4px solid #8f7bc8;
@@ -235,15 +235,22 @@ a.btn span {
 }
 .text-description h3{
 	font-size: 80px;
-	padding-top: 29.2%;
-	padding-bottom: 9%;
-	padding-left: 10.7%;
+    padding-top: 24.4%;
+    padding-bottom: 9%;
+    padding-left: 13.7%;
 }
 .text-description p {
 	max-width: 590px;
 	font-size: 24px;
 	margin-left: 5px;
-	padding-left: 10.7%;
+	padding-left: 13.7%;
+}
+.text-description.indent h3{
+    padding-bottom: 6%;
+    padding-left: 19.7%;
+}
+.text-description.indent p{
+    padding-left: 19.7%;
 }
 
 /*footer*/
@@ -259,7 +266,7 @@ footer {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding-top: 15.4%;
+	padding-top: 12.8%;
 	padding-bottom: 0;
 }
 .download-app {
@@ -269,6 +276,11 @@ footer {
 .download-app p {
 	color: #a496ca;
 	font-size: 28px;
+}
+footer .buttons {
+	padding-bottom: 7%;
+    padding-top: 8%;
+
 }
 footer .follow-me__icon {
 	padding-top: 6.8%;
